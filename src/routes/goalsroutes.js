@@ -12,11 +12,8 @@ router.get('/',getGoals)
 
 router.post('/', setGoal)  
 
-
 router.put('/:id', updateGoal)
 
 router.delete('/:id', deleteGoal)
-
-
 
 module.exports = router
